@@ -77,11 +77,11 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .navigation-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .navigation-list .link {
   font-weight: 500;
@@ -114,16 +114,16 @@ a.logo > span {
 .contacts {
   font-style: normal;
 }
-.contacts ul {
+.contacts-list {
   display: flex;
   gap: 40px;
   padding: 24px 0;
 }
-.contacts li > a.link {
+.contacts-list-item-link {
   letter-spacing: 0.02em;
 }
-.contacts li > a:hover,
-.contacts li > a:focus {
+.contacts-list-item-link:hover,
+.contacts-list-item-link:focus {
   color: #404bbf;
 }
 
